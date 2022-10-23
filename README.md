@@ -34,8 +34,9 @@ export CREDLY_USERNAME=
 
 ## TODO
 
-- [ ] Multiple Data Store Options (Extandable)
+- [ ] Multiple Data Store Options (Extendable)
 - [ ] Custom Mapper Columns
+- [ ] Multiple Providers
 
 ## License
 
