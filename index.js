@@ -1,6 +1,6 @@
 const axios = require("axios");
-const { requestToData } = require("./mapper");
-const saveToDynamoDb = require("./dynamodb-client");
+const { requestToData } = require("./utils/mapper");
+const saveToDynamoDb = require("./services/dynamodb-client");
 
 const username = process.env.CREDLY_USERNAME;
 

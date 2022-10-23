@@ -2,7 +2,11 @@
 
 ## Current Implementation
 
-1. Parse Badges from Credly to DynamoDB
+1. Read Badges Data from Credly to DynamoDB
+
+## Sample Data
+
+![Sample](./samples/data.png)
 
 ## Columns
 
@@ -12,8 +16,9 @@
 {
   "id": "<badge id>",
   "name": "<badge title>",
-  "href": "<credly link>",
-  "src": "<image link>"
+  "src": "<image link>",
+  "provider": "<provider name>",
+  "expires": "<expires date time>"
 }
 ```
 

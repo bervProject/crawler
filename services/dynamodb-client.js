@@ -2,7 +2,7 @@ const {
   DynamoDBClient,
   BatchWriteItemCommand,
 } = require("@aws-sdk/client-dynamodb");
-const { dataToDynamoDb, paginate } = require("./mapper");
+const { dataToDynamoDb, paginate } = require("../utils/mapper");
 
 const client = new DynamoDBClient();
 
